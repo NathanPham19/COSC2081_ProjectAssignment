@@ -19,6 +19,9 @@ public class Main {
         else if (ans == "n" || ans == "N") {
             System.out.println("Welcome Customer! Do you want to create an account?");
             String ans1 = scan.nextLine();
+            if (ans1 == "y" || ans1 == "Y"){
+                Customer c1 = new Customer();
+                c1.registerUser();
 
         }
         // Engage Student Class if N
